@@ -1,5 +1,5 @@
 CXX  = g++
-CXXFLAGS = -Wall -I.
+CXXFLAGS = -ggdb -Wall -I.
 FLTKFLAGS = $(shell fltk-config --cxxflags --ldflags --use-gl)
 
 all: flgl.exe

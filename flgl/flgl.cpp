@@ -30,7 +30,7 @@ void GlWin::draw() {
   if (!valid()) {
     // set up projection and viewport
     // w() and h() for window width/height
-    glViewport(0, 0, (GLsizei)w(), (GLsizei) h());
+    glViewport(0, 0, (GLsizei) w(), (GLsizei) h());
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
     glClearColor(0.0,0.0,0.0,0.0);
